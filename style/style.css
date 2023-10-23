@@ -1147,90 +1147,73 @@ footer {
     display: flex;
 }
 
-.dashboard-list {
-    width: 396px;
+.dashboard-listlinks {
+    width: 30%;
     display: flex;
     flex-direction: column;
-    align-items: center;
-}
-
-.logo_div {
-    margin-top: 40px;
-    margin-bottom: 40px;
-}
-
-.dashboard-logo {
-    background-image: url(../access/exquteclogomain.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    width: 207px;
-    height: 47px;
-    margin: auto;
-}
-
-.detail-block{
     text-align: center;
+    /* align-items: center; */
 }
 
-.detail-block p {
-    margin-bottom: 32px;
-    font-family: KonsensRegular;
-    font-size: 32px;
-    line-height: 48px;
-    letter-spacing: 0.0384em;
-
+.dashboard-listlinks-flex-logo {
+    margin: 40px 0px;
 }
 
-.detail-block a  {
-    text-decoration: none;
-    color: #1E1E1E;
-
-}
-
-.detail-block p:hover {
-    background-color: rgba(117, 64, 129, 1);
-    width: 100%;
-    font-family: KonsensBold;
-}
-
-.detail-block a:hover {
-    color: rgba(255, 255, 255, 1);
-}
-
-.user-logo_container {
+.dashboard-listlinks-flex-detailblock-usercontainer {
     background-color: rgba(244, 172, 69, 0.08);
     width: 82px;
     height: 82px;
     margin: auto;
-    margin-bottom: 30px;
     border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     position: relative;
 }
 
-.user_logo {
-    width: 32px;
-    height: 32px;
-    position: absolute;
-    right: 25px;
-    top: 50%;
-    transform: translateY(-50%);
+.dashboard-listlinks-flex-detailblock-links {
+    margin-top: 30px; 
+    display: flex;
+    flex-direction: column;
 }
 
-.signout-button {
-    margin-top: 68px;
+.dashboard-listlinks-flex-detailblock-links-active {
+    background-color: #a27fee;
+    color: white!important;
 }
 
-.signout-button button {
+.dashboard-listlinks-flex-detailblock-links a {
+    width: 100%;
+    margin-bottom: 37px;
+    font-size: 29px;
+    font-weight: 600;
+    line-height: 48px;
+    letter-spacing: 0.0314em;
+    text-decoration: none;
+    color: #1E1E1E;
+}
+
+.dashboard-listlinks-flex-detailblock-links a:hover {
+    background-color: rgba(117, 64, 129, 1);
+    color: white;
+}
+
+.dashboard-listlinks-flex-detailblock-links-signoutbutton {
+    margin-top: 60px;
+}
+
+.dashboard-listlinks-flex-detailblock-links-signoutbutton button {
     background-color: transparent;
-    font-family: KonsensBold;
     font-size: 20px;
+    font-weight: 600;
     line-height: 30px;
     letter-spacing: 0.024em;
     border: none;
 }
 
 .flex-inner_a {
-    background-color: #F5F5F5;
+    background-color: var(--primary-color, #8D5CF6);
+    /* background-color: #F5F5F5; */
     width: 1024px;
 }
 
