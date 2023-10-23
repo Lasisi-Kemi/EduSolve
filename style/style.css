@@ -1148,7 +1148,7 @@ footer {
 }
 
 .dashboard-listlinks {
-    width: 30%;
+    width: 25%;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -1194,7 +1194,7 @@ footer {
 }
 
 .dashboard-listlinks-flex-detailblock-links a:hover {
-    background-color: rgba(117, 64, 129, 1);
+    background-color: #a27fee;
     color: white;
 }
 
@@ -1211,22 +1211,26 @@ footer {
     border: none;
 }
 
-.flex-inner_a {
+.dashboard-student {
+    width: 75%;
     background-color: var(--primary-color, #8D5CF6);
-    /* background-color: #F5F5F5; */
-    width: 1024px;
+    color: white;
 }
 
-.welcome-stdname {
-    margin: 50px 0px 32px 24px;
-    font-family: KonsensRegular;
+.dashboard-student-section {
+    padding: 50px 0px 0px 24px;
+}
+
+.dashboard-student-welcomestdname {
+    margin-bottom: 32px;
+    font-weight: 600;
     font-size: 45px;
     line-height: 72px;
     letter-spacing: 0.0576em;
 }
 
-.welcome-stdname span {
-    font-family: KonsensBold;
+.dashboard-student-welcomestdname span {
+    font-weight: 700;
 }
 
 .gen-text {
@@ -1236,9 +1240,6 @@ footer {
     letter-spacing: 0.0384em;
 }
 
-.general-section {
-    margin-left: 24px;
-}
 
 .flex-biodata_a {
     margin-bottom: 40px;
